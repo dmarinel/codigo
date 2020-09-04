@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrarse</title>
+</head>
+<body>
+    <header>
+        <h1>Registrarse</h1>
+    </header>
+    <nav>
+        <a href="./iniciarsesion.html">Iniciar Sesion</a>
+        <a href="#"> Registrarse</a>
+    </nav>
+    <br/>
+    <section>
+        <form >
+            <table>
+            <tr>
+                <td>
+                    <label for="idNombre">Nombre Completo:</label>
+                </td>
+                <td>
+                    <input 
+                        type="text" 
+                        id="idNombre" 
+                        required
+                    >
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="idApellido">Apellidos:</label>
+                </td>
+                <td>
+                    <input type="text" id="idApellido" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="">Edad:</label>
+                </td>
+                <td>
+                    <input type="number">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="idFecha">Fecha de Nacimiento:</label>
+                </td>
+                <td>
+                    <input type="date" id="idFecha">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="idEmail">Correo:</label>
+                </td>
+                <td>
+                    <input type="email" id="idEmail">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="idPassword">Contraseña:</label>
+                </td>
+                <td>
+                    <input type="password" id="idPassword">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="">Sexo:</label>
+                </td>
+                <td>
+                    <label for="idM">M</label>
+                    <input type="radio" id="idM" name="genero">
+                    <label for="idF">F</label>
+                    <input type="radio" id="idF" name="genero">
+                    <label for="idOtro">otro</label>
+                    <input type="radio" id="idOtro" name="genero">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="">Idiomas</label>
+                </td>
+                <td>
+                    <label for="idIngles">Ingles</label>
+                    <input type="checkbox" id="idIngles">
+                    <label for="idEspañol">Español</label>
+                    <input type="checkbox" id="idEspañol">
+                    <label for="idPortugues">Portugues</label>
+                    <input type="checkbox" id="idPortugues">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="idIdiomas">Idiomas:</label>
+                </td>
+                <td>
+                    <select id="idIdiomas">
+                        <option >Nivel de estudio</option>
+                        <option >Ingles</option>
+                        <option >Español</option>
+                        <option >Portugues</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="idTexArea">Description:</label>
+                </td>
+                <td>
+                    <textarea id="idTexArea" cols="30" rows="10"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="idFile">Ingrese su Cv</label>
+                </td>
+                <td>
+                    <input type="file" id="idFile">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="idColor">Color Base:</label>
+                </td>
+                <td>
+                    <input type="color" id="idColor">
+                </td>
+            </tr>
+            </table>
+        </form>
+    </section>
+</body>
+</html>

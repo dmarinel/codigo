@@ -19,7 +19,7 @@
                 type="text" 
                 id ="idNombre" 
                 placeholder="Ingrese nombres completos"
-                required
+                required 
                 >
             </td>
         </tr>
@@ -28,7 +28,11 @@
                 <label for="idEdad">Edad:</label>
             </td>
             <td>
-                <input type="number" id="idEdad" placeholder="Ingrese su edad">
+                <input 
+                    type="number" 
+                    id="idEdad" 
+                    placeholder="Ingrese su edad"
+                >
             </td>
         </tr>
         <tr>
@@ -74,7 +78,11 @@
                 >
 
                 <label for="idO">Otro</label>
-                <input type="radio" id="idO" name="genero">
+                <input 
+                    type="radio" 
+                    id="idO" 
+                    name="genero"
+                >
             </td>
         </tr>
         <tr>
@@ -83,13 +91,23 @@
             </td>
             <td>
                 <label for="idIngles">Ingles</label>
-                <input type="checkbox" id="idIngles">
+                <input 
+                    type="checkbox" 
+                    id="idIngles"
+                >
 
                 <label for="idEspañol">Español</label>
-                <input type="checkbox" id="idEspañol" checked >
+                <input 
+                    type="checkbox" 
+                    id="idEspañol" 
+                    checked 
+                >
 
                 <label for="idPortugues">Portugues</label>
-                <input type="checkbox" id="idPortugues" >
+                <input 
+                    type="checkbox"
+                    id="idPortugues" 
+                >
             </td>
         </tr>
         <tr>
@@ -97,7 +115,11 @@
                 <label for="idEmail">Email</label>
             </td>
             <td>
-                <input type="email" value="@gmail.com" id="idEmail" placeholder="Ingres su correo">
+                <input 
+                    type="email" 
+                    value="@gmail.com" 
+                    id="idEmail" 
+                    placeholder="Ingres su correo">
             </td>
         </tr>
         <tr>
@@ -105,7 +127,10 @@
                 <label for="idPassword">Password</label>
             </td>
             <td>
-                <input type="password" id="idPassword" placeholder="Ingrese su password">
+                <input 
+                    type="password" 
+                    id="idPassword" 
+                    placeholder="Ingrese su password">
             </td>
         </tr>
         <tr>
@@ -120,13 +145,44 @@
                 </textarea>
             </td>
         </tr>
+
+        <tr>
+            <td>
+                <label for="idDepartamento">Selecciones su Departamento</label>
+            </td>
+            <td>
+                <select id="idDepartamento">
+                    <option value="">Seleccione Departamento</option>
+                    <option value="">Puno</option>
+                    <option value="">Cusco</option>
+                    <option value="">Ayacucho</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="idSubirArchivo">Subir Archivo</label>
+            </td>
+            <td>
+                <input 
+                    type="file"
+                    id="idSubirArchivo"
+                >
+            </td>
+        </tr>
         <tr>
             <td>
                 <label for="">Acciones</label>
             </td>
             <td>
-                <input type="submit" value="Registrar">
-                <input type="reset" value="Limpiar Formulario">
+                <input 
+                    type="submit" 
+                    value="Registrar"
+                >
+                <input 
+                    type="reset" 
+                    value="Limpiar Formulario"
+                >
             </td>
         </tr>
         </table>
