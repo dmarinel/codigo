@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas</title>
+</head>
+<body>
+    <header>
+        <h1>Tablas</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>Configuraciones de tablas</h2>
+            <table 
+            border = "4" 
+            bgColor="#FF5733" 
+            background ="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT44CLtvQe5JNp1NKXiLvsChI8zRXM5LlnRDQ&usqp=CAU"
+            bordercolor = "yellow"
+            cellpadding ="30"
+            width = "700"
+            height ="400"
+            >
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Apellido</th>
+                        <th>Edad</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Denisse</td>
+                        <td>Montalvo Castillo</td>
+                        <td> 17 años </td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+        </section>
+        <section>
+            <h2>Rowspan y el colspan</h2>
+            <table border = "1">
+                <thead>
+                    <tr>
+                        <th>Curso</th>
+                        <th>Duración</th>
+                        <th>Profesor</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td rowspan="2">Algoritmos</td>
+                        <td colspan="2"> 2 meses</td>
+                        
+                    </tr>
+                    <tr>
+                        <td align="center">Arduino</td>
+                        <td>1 mes </td>
+                        
+                    </tr>
+                    <tr>
+                        <td>Servidores</td>
+                        <td>1 mes </td>
+                        <td>juanito</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+</body>
+</html>
