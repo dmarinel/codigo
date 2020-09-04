@@ -19,6 +19,9 @@
                 type="text" 
                 id ="idNombre" 
                 placeholder="Ingrese nombres completos"
+                pattern="[a-z]{1,15}"
+                minlength="4"
+                maxlength="10"
                 required 
                 >
             </td>
@@ -32,6 +35,8 @@
                     type="number" 
                     id="idEdad" 
                     placeholder="Ingrese su edad"
+                    min="0"
+                    max="10"
                 >
             </td>
         </tr>
@@ -130,7 +135,10 @@
                 <input 
                     type="password" 
                     id="idPassword" 
-                    placeholder="Ingrese su password">
+                    placeholder="Ingrese su password"
+                    pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                    title ="Necesitas una mayuscula, una minuscula y tu contraseña no debe ser menor a ocho"
+                >
             </td>
         </tr>
         <tr>
